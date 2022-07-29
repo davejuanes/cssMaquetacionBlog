@@ -202,24 +202,19 @@ footer p {
 .contact-main-container img {
   width: 100px;
 }
-/* .contact-main-left {
+.main-profile-container {
+  width: 100%;
+  height: 200px;
+  background-color: #e6e9ed;
+  margin: 0 100px;
+}
+.main-profile-container div {
   display: grid;
-  width: 80%;
   grid-template-columns: 1fr 3fr;
 }
-.contact-main-left a {
-  border-bottom: 1px solid black;
+.main-profile-container img {
+  width: 30%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.contact-main-container img {
-  width: 80px;
-  margin-right: 10px;
-  justify-self: end;
-}
-.contact-main-right {
-  display: grid;
-  width: 80%;
-  grid-template-columns: 1fr 3fr;
-}
-.contact-main-right a {
-  border-bottom: 1px solid black;
-} */
