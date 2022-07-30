@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 100%;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  background-color: slategrey;
+}
+header .image-logo-container {
+  margin-left: 25px;
+}
+header .image-logo-container span {
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+}
+header .icons-container ul {
+  list-style: none;
+  text-align: end;
+  margin-right: 50px;
+}
+header .icons-container ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+header .icons-container ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+header .icons-container ul li a:hover {
+  color: darkgray;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  background-image: url("./pexels-henry-&-co-1939485.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .biografy-img-container {
+  display: grid;
+  position: absolute;
+  justify-self: center;
+  z-index: 2;
+  place-content: center;
+  top: 85px;
+}
+main .biografy-img-container img {
+  width: 30%;
+  border-radius: 50%;
+  place-self: center;
+}
+main .biografy-container {
+  width: 65%;
+  height: 480px;
+  display: grid;
+  position: relative;
+  background-color: slategrey;
+  z-index: 1;
+  place-content: center;
+  justify-items: center;
+  bottom: -130px;
+  color: white;
+  border-radius: 15px;
+}
+main .biografy-container p {
+  margin: 40px;
+  font-size: 1.3rem;
+}
+main .biografy-container .button-projects {
+  width: 90px;
+  height: 45px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 25px;
+  color: slategrey;
+  border: none;
+  border-radius: 10px;
+}
+main .biografy-container .button-projects:hover {
+  background-color: rgb(207, 207, 207);
+  color: white;
+}
