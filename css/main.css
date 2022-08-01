@@ -205,10 +205,10 @@ footer p {
 }
 
 .profile-container {
-  display: grid;
-  place-content: center;
+  display: flex;
+  /* place-content: center; */
   background-color: #e6e9ed;
-  padding: 0 50px 40px;
+  padding: 70px 40px;
 }
 .profile-main-new {
   display: grid;
